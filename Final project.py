@@ -11,16 +11,16 @@ clock = pygame.time.Clock()
 FPS = 60
 
 
-background = pygame.image.load("res/background2.jpg")
+background = pygame.image.load("background.jpg.jpg")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 DINO_WIDTH, DINO_HEIGHT = 80, 80
 OB_WIDTH, OB_HEIGHT = 50, 60
 
-dino_img = pygame.image.load("res/spaceship6.png").convert_alpha()
+dino_img = pygame.image.load("OIP.webp").convert_alpha()
 dino_img = pygame.transform.scale(dino_img, (DINO_WIDTH, DINO_HEIGHT))
 
-obstacle_img = pygame.image.load("").convert_alpha()
+obstacle_img = pygame.image.load("ob.webp").convert_alpha()
 obstacle_img = pygame.transform.scale(obstacle_img, (OB_WIDTH, OB_HEIGHT))
 
 
