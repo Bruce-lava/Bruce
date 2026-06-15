@@ -17,12 +17,15 @@ background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 DINO_WIDTH, DINO_HEIGHT = 80, 80
 OB_WIDTH, OB_HEIGHT = 50, 60
 
-dino_img = pygame.image.load("OIP.webp").convert_alpha()
+dino_img = pygame.image.load("OIP-Photoroom.png").convert_alpha()
 dino_img = pygame.transform.scale(dino_img, (DINO_WIDTH, DINO_HEIGHT))
 
-obstacle_img = pygame.image.load("ob.webp").convert_alpha()
+obstacle_img = pygame.image.load("download-Photoroom.png").convert_alpha()
 obstacle_img = pygame.transform.scale(obstacle_img, (OB_WIDTH, OB_HEIGHT))
 
+pygame.init()
+s1= pygame.mixer.Sound('Crazy Dave (Intro Theme) - Plants vs. Zombies Soundtrack (Official).mp3')
+input()
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)

@@ -21,7 +21,7 @@ def draw_circle(x, y, radius):
 
 
 def draw_score(points):
-    text = font.render("Score: " + str(points), True, (255, 255, 255))
+    text = font.render("Score: " + str(points), True, (255, 255, 255))                                                                                                                                                                                                                                                                                                                 
     screen.blit(text, (20, 20))
 
 
