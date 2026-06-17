@@ -24,8 +24,10 @@ obstacle_img = pygame.image.load("download-Photoroom.png").convert_alpha()
 obstacle_img = pygame.transform.scale(obstacle_img, (OB_WIDTH, OB_HEIGHT))
 
 pygame.init()
+
 s1= pygame.mixer.Sound('Crazy Dave (Intro Theme) - Plants vs. Zombies Soundtrack (Official).mp3')
-input()
+s1.play()
+
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
